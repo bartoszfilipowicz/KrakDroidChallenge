@@ -13,11 +13,11 @@ Data models
 
 Endpoints and actions
 ---------------------
-. /datasets (read-only)
-. /solutions - insert creates a new Solution and returns it's URI (/solutions/ID)
-. /solutions/ID - insert creates a new Answer to dataset DATASET_ID (required parameter) and with SOLUTION_ID set to ID from URI
-. /answers (read-only)
-. /submissions - insert creates a new Submission for Solution specified by SOLUTION_ID (required parameter) and *triggers data upload*
+* /datasets (read-only)
+* /solutions - insert creates a new Solution and returns it's URI (/solutions/ID)
+* /solutions/ID - insert creates a new Answer to dataset DATASET_ID (required parameter) and with SOLUTION_ID set to ID from URI
+* /answers (read-only)
+* /submissions - insert creates a new Submission for Solution specified by SOLUTION_ID (required parameter) and *triggers data upload*
 
 Submission process
 ------------------
